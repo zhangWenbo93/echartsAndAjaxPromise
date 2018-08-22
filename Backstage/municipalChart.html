@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../css/charts.css">
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="content">
+        <div class="layui-row layui-col-space10">
+            <div class="layui-col-md3">
+                <div class="lay1">
+                    <div class="top">
+                        <img src="./images/allcase.png" alt="">
+                        <div>
+                            <span>扶贫办累计项目总数</span>
+                            <span>2,937,104个</span>
+                        </div>
+                    </div>
+                    <div class="bot">本年度项目数：<span>111111个</span></div>
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <div class="lay1">
+                    <div class="top">
+                        <img src="./images/allmoney.png" alt="">
+                        <div>
+                            <span>扶贫办累计项目总数</span>
+                            <span>2,937,104个</span>
+                        </div>
+                    </div>
+                    <div class="bot">本年度项目数：<span>111111个</span></div>
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <div class="lay1">
+                    <div class="top">
+                        <img src="./images/allhouse.png" alt="">
+                        <div>
+                            <span>扶贫办累计项目总数</span>
+                            <span>2,937,104个</span>
+                        </div>
+                    </div>
+                    <div class="bot">本年度项目数：<span>111111个</span></div>
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <div class="lay1">
+                    <div class="top">
+                        <img src="./images/alldata.png" alt="">
+                        <div>
+                            <span>扶贫办累计项目总数</span>
+                            <span>2,937,104个</span>
+                        </div>
+                    </div>
+                    <div class="bot">本年度项目数：<span>111111个</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-row layui-col-space10">
+            <div class="layui-col-md6">
+                <div class="lay2" id="year-dh">
+
+                </div>
+            </div>
+            <div class="layui-col-md6">
+                <div class="lay2" id="jd-zj">
+                </div>
+            </div>
+        </div>
+        <div class="layui-row layui-col-space10">
+            <div class="layui-col-md3">
+                <div class="lay3" id="zj-ly">
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <div class="lay3" id="zj-lx">
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <div class="lay3 lay-fb">
+                    <div id="zj-zt1"></div>
+                    <div id="zj-zt2"></div>
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <div class="lay3" id="xm-lx">
+                </div>
+            </div>
+        </div>
+        <div class="layui-row layui-col-space10">
+            <div class="layui-col-md6">
+                <div class="lay2" id="chart1">
+
+                </div>
+            </div>
+            <div class="layui-col-md6">
+                <div class="lay2" id="chart2">
+
+                </div>
+            </div>
+        </div>
+        <div class="layui-row layui-col-space10">
+            <div class="layui-col-md6">
+                <div class="lay2" id="chart3">
+
+                </div>
+            </div>
+            <div class="layui-col-md6">
+                <div class="lay2" id="chart4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../layui/layui.all.js"></script>
+<script src="../js/promiseJson.js"></script>
+<script src="../js/echarts.js"></script>
+<script src="../js/mycharts.js"></script>
+<script>
+    new barChart();
+</script>
+
+</html>

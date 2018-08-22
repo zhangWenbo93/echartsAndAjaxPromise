@@ -1,0 +1,78 @@
+html,body{
+    width: 100%;
+    min-height: 100%;
+}
+.content{
+    padding: 20px;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+.lay1{
+    width: 100%;
+    height: 145px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.top{
+    padding: 22px 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.top img{
+    padding-right: 20px;
+    flex: 0 0 56px;
+    height: 56px;
+}
+.top div{
+    flex: 1;
+}
+.top span:first-child{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8E8E8E;
+}
+.top span:last-child{
+    display: block;
+    font-size: 28px;
+    line-height: 40px;
+    color: #474747;
+}
+.bot{
+    margin: 0 22px;
+    border-top: 1px solid #dcdcdc;
+    font-size: 14px;
+    color: #5F5F5F;
+    line-height: 40px;
+}
+.bot span{
+    color: #FF4D3A;
+}
+
+/*  */
+
+.lay2{
+    width: 100%;
+    height: 330px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*  */
+
+.lay3{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between
+}
+.lay-fb div{
+    width: 50%;
+    height: 100%;
+}
